@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-   background-color: rgb(183, 179, 142);
-}
+   background-color: rgba(183, 179, 142, 0.84);
 
 h1, p {
     font-family: 'Times New Roman', Times, serif;
@@ -308,14 +307,14 @@ footer{
 .dots {
     text-align: center;
     padding: 20px;
-    background: rgb(183, 179, 142);
+    background: transparent;
     border-radius: 0 0 10px 10px;
 }
 .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 5px 2px;
     background-color: rgb(10, 10, 10);;
     border-radius: 50%;
     display: inline-block;
