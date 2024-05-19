@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(183, 179, 142);
+}
+
+h1, p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(21, 21, 93, 0.84);
+}
+
+hr {
+    background-color: rgba(21, 21, 93, 0.84);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: stretch;
+    box-shadow: 2px 2px 5px black;
+}
+
+.who {
+    margin-left: 400px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgba(21, 21, 93, 0.84);;
+    text-shadow: 2px 2px 8px rgba(21, 21, 93, 0.84);;
+}
+
+.what, .industries, .investors {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgba(21, 21, 93, 0.84);;
+    text-shadow: 2px 2px 8px rgba(21, 21, 93, 0.84);;
+}
+
+.ikea {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(21, 21, 93, 0.84);
+    font-weight: 600;
+    display: inline-block;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgba(21, 21, 93, 0.84);;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    margin-top: 10px;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 25px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.column img:hover {
+    box-shadow: 5px 5px 10px grey;
+    padding: 7px 7px 7px 7px;
+    margin: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.wb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.left {
+    width: 500px;
+    background-color: rgb(41, 37, 37);
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 40px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    margin-top: 70px;
+    transition: box-shadow 0.15s;
+}
+
+.left:hover {
+    box-shadow: 5px 10px 15px black;
+    padding: 10px 10px 10px 10px;
+}
+
+.right {
+    height: 600px;
+    width: calc(100% - 700px);
+    margin-right: 40px;
+}
+
+.rightp {
+    max-width: 800px;
+    min-height: 100vh;
+    opacity: 0;
+    font-size: 20px;
+    transition: all 3s;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(21, 21, 93, 0.84);
+}
+
+.links {
+    color: rgba(21, 21, 93, 0.84);
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 70px 70px 70px 20px;
+    transition: text-shadow 0.15s;
+    text-shadow: 2px 2px 8px rgba(21, 21, 93, 0.84);
+    opacity: 0;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s;
+}
+
+.links:hover {
+    text-shadow: 2px 2px 5px rgba(21, 21, 93, 0.84);
+    font-size: 40px;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.activew{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    line-height: 70px;
+    margin-left: 170px;
+    align-items: center;
+}
+
+.activeimg{
+    box-shadow: 2px 2px 8px rgba(21, 21, 93, 0.84);
+    border-radius: 20px;
+}
+
+.activeimg:hover{
+    box-shadow: 4px 4px 6px rgba(21, 21, 93, 0.84);
+}
+
+footer{
+    background-color: rgba(21, 21, 93, 0.84);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    line-height: 4px;
+    padding-top: 20px;
+}
+
+.geico:hover{
+    box-shadow: 4px 4px 16px rgba(21, 21, 93, 0.84);
+    color: white;
+}
+
+.card{
+      width: 250px;
+      height: 300px;
+      box-shadow: 5px 5px 10px grey;
+      display: inline-block;
+      padding-left: 18px;
+      padding-top: 18px;
+      margin-right: 60px;
+      margin-left: 50px;
+      background-color: rgb(221, 203, 203);
+      transition: all 0.15s;
+  }
+
+  .card:hover{
+    box-shadow:10px 10px 12px grey ;
+    padding: 10px;
+  }
+
+  .img1{
+      width: 200px;
+      height: 200px;
+      margin-left: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: black;
+         
+  }
+
+  .name1{
+      margin-top: 10px;
+      margin-left: 80px;
+      margin-bottom: 40px;
+      font-size: 25px;
+      font-weight: bold;
+  }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+.slides {
+    display: none;
+    width: 100%;
+}
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+    height: 650px;
+}
+.text-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px white;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dots {
+    text-align: center;
+    padding: 20px;
+    background: rgb(183, 179, 142);
+    border-radius: 0 0 10px 10px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(10, 10, 10);;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
